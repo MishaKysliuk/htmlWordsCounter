@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="carousel-inner" role="listbox">
+<!-- asdasdasd -->
+        <div class="item active">
+            <img class="first-slide" src="" alt="Start today">
+            <div class="container">
+                <div class="carousel-caption">
+                content of the div
+                    <h1>Start training with Gold's gym</h1>
+                    <p>You just need to choose pass and start training!</p>
+                    the other content
+                    <p><a class="btn btn-lg btn-primary" href="" role="button">Choose pass</a></p>
+                </div>
+            </div>
+        </div>
+        <ul>
+                                        <li>
+                                <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                                    Tour
+                                    <span class="item-summary">
+                                        Start here for a quick overview of the site
+                                    </span>
+                                </a>
+                            </li>
+                        <li>
+                            <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                                Help Center
+                                <span class="item-summary">
+                                    Detailed answers to any questions you might have
+                                </span>
+                            </a>
+                        </li>
+                                <li>
+                                    <a href="//meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                                        Meta
+                                        <span class="item-summary">
+                                            Discuss the workings and policies of this site
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })">
+                                        About Us
+                                        <span class="item-summary">
+                                            Learn more about Stack Overflow the company
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })">
+                                        Business
+                                        <span class="item-summary">
+                                            Learn more about hiring developers or posting ads with us
+                                        </span>
+                                    </a>
+                                </li>
+                    </ul>
+</div>
+</body>
+</html>
