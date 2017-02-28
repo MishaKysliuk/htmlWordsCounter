@@ -24,7 +24,7 @@ public class WordsCounter {
         countWords(body);
     }
 
-    public void countWords(Tag tag){
+    private void countWords(Tag tag){
         if(!ignoredTags.contains(tag.getName())){
             if(tag.getContent() != null)
                 splitAndAdd(tag.getContent());
@@ -55,16 +55,6 @@ public class WordsCounter {
                 return children;
         }
         return null;
-    }
-
-    public void print(Tag tag, int i){
-        for(Tag t: tag.getChildTags()){
-            for(int j = 0; j < i; j++){
-                System.out.print(" ");
-            }
-            System.out.println(t.getName() + " " + t.getContent());
-            print(t, i+3);
-        }
     }
 
     public Map<String, Integer> getWordsCount() {
