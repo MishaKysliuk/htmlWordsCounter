@@ -5,7 +5,7 @@ package org.htmlwordscounter.helpers;
  */
 public class Validate {
 
-    public static final String URL_PATTERN = "http://(www\\.)?.+\\..+";
+    public static final String URL_PATTERN = "http://.+";
 
 
     public static void matchesPattern(String string, String pattern){
